@@ -1,0 +1,158 @@
+body{
+  /* box-sizing:border-box; */
+  background: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+/* Header */
+header {
+  background-color: white;
+  background-image: url("images/Logo.jpeg");
+  background-size: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 220px;
+  padding: 20px;
+  
+}
+ul li{
+  text-transform: uppercase;
+  margin: 10px;
+  text-align: center;
+  text-transform: bold;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  /* display: inline-block; */
+}
+
+ /* .logo{
+   margin: 0;
+   padding: 0;
+ }
+ .logo img{
+   /* margin-top: -10px;
+   margin-left: -10px; */
+   /* border-radius: 10%;
+   float: left;
+   width: 100px;
+    
+ } */ 
+ nav li a:hover{
+   background-color: white;
+   color: black; 
+ }
+ nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ /* Responsiveness */
+@media screen and (max-width: 800px) {
+  header{
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: white;
+    background-size: 300px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+  }
+  .location p {
+    font-size: 1em;
+  }
+  p{
+    font-size: 0.5em;
+  }
+  .footer{
+    font-size: 1rem;
+  }
+  
+}
+
+h1{
+  color: red;
+  text-align: center;
+  
+}
+p{
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+.images{
+  background: white;
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.images figure {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+  width: 200px;
+  
+}
+.images figure img{
+  border: 2px solid white;
+  border-radius: 10%;
+  box-shadow: gray 0 0 10px;
+  width: 200px;
+}
+footer{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.facebook{
+  background-color: white;
+  color: blue;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  margin-right: 20px;
+}
+.whatsapp{
+  background-color: lightgreen;
+  color: white;
+  margin: 21px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0;
+  right: 3; 
+}
+.email{
+  background-color: white;
+  color: red;
+  margin: 52px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0;
+  
+}
+.location{
+  color: blue;
+  background-color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px;
+  height: 200px;
+}
+.location p {
+  color: black;
+  font-size: 1.5rem;
+  margin: 5px;
+}
